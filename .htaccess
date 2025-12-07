@@ -1,0 +1,19 @@
+# Разрешить доступ к директории
+Order Allow,Deny
+Allow from all
+
+# Установить индексный файл
+DirectoryIndex index.php
+
+# Запретить листинг директории
+Options -Indexes
+
+# Разрешить доступ к файлам
+<FilesMatch "\.(php|css|js|jpg|jpeg|png|gif|ico)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Перенаправление ошибок
+ErrorDocument 403 /admin/index.php
+ErrorDocument 404 /admin/index.php
