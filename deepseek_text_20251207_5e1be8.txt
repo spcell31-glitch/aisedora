@@ -1,0 +1,25 @@
+ваш_сайт/
+├── admin/
+│   ├── index.php
+│   ├── dashboard.php
+│   ├── logout.php
+│   ├── save-content.php
+│   ├── upload-handler.php
+│   ├── .htaccess
+│   ├── /includes/
+│   │   ├── config.php
+│   │   ├── auth.php
+│   │   ├── security.php
+│   │   └── database.php
+│   ├── /pages/
+│   │   ├── edit-home.php
+│   │   ├── edit-services.php
+│   │   ├── edit-gallery.php
+│   │   └── edit-contacts.php
+│   ├── /css/
+│   │   └── admin.css
+│   ├── /uploads/
+│   │   └── .htaccess
+│   └── /logs/
+├── /uploads/ (основная папка)
+└── index.php (ваш основной сайт)
